@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Lexend', sans-serif;
+}
+:root{
+  --body-color: #333;
+  --color-white: white;
+
+  --text-color-second: white;
+  --first-shadow-color: darkgrey;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+  padding-block: 5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.nav-menu a:hover {
+  color: lightcoral;
+}
+
+body {
+  background-color: #333;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    line-height: 50px;
+    background: var(--body-color);
+    padding-inline: 9vw;
+    transition: 1.3s;
+    z-index: 100;
+}
+.nav-logo{
+    position: relative;
+}
+.nav-name{
+    font-size: 35px;
+    font-weight: 600;
+    color: lightcoral;
+    font-family: 'Lexend';
+}
+
+.nav-menu, .nav_menu_list{
+    display: flex;
+    padding-inline: 1vw;
+    margin-left: 180px;
+    margin-top: 6px;
+}
+.nav-menu .nav_list{
+    list-style: none;
+    position: relative;
+    padding-inline: 1.5vw;
+    font-family: 'Lexend';
+    font-size: medium;
+}
+/* ---------------------home-------------------- */
+.homeintro {
+  color: white;
+  text-align: left;
+  position: relative;
+  margin-left: 170px;
+  padding-top: 80px; 
+}
+
+.homeintro h1 {
+  color: lightcoral;
+  font-size: 70px;
+  font-family: 'Lexend';
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.homeintro h2 {
+  font-weight: 100;
+}
+
+.homeintro h3 {
+  line-height: 30px;
+  font-weight: 100;
+  font-family: 'Lexend';
+}
+
+.image {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  margin-left: 900px;
+  margin-top: -450px;
+}
+
+.button {
+  background-color: lightcoral;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  margin-top: 30px;
+  margin-left: 170px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: 'Lexend';
+}
+
+.socialmedia {
+    display: flex;
+    margin-top: 5em;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;   
+    cursor: pointer;
+    color: white;    
+}
+
+.icon a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #f1f1f1;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.icon a:hover{
+  color: lightcoral;
+  transform: translateY(-5px);
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+
+/* ---------------------about-------------------- */
+
+.image2 {
+  margin-left: 150px;
+  padding-top: 50px;
+}
+
+.image2 img {
+  height: 520px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.aboutme {
+  color: white;
+  text-align: left;
+  position: relative;
+  margin-left: 600px;
+  margin-top: -600px;
+  line-height: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.aboutme h1 {
+  color: lightcoral;
+  font-size: 50px;
+}
+
+.aboutme h3 {
+  font-weight: 100;
+  line-height: 25px;
+  font-family: 'Lexend';
+}
+
+.skills {
+  color: white;
+  text-align: left;
+  position: relative;
+  margin-left: 600px;
+  margin-top: -75px;
+}
+
+.rectangle {
+  height: 10px;
+  width: 650px;
+  background-color: lightcoral;
+  margin-left: 600px;
+  margin-top: -15px;
+}
+.rectangle1 {
+  height: 10px;
+  width: 600px;
+  background-color: lightcoral;
+  margin-left: 600px;
+  margin-top: -15px;
+}
+.rectangle2 {
+  height: 10px;
+  width: 520px;
+  background-color: lightcoral;
+  margin-left: 600px;
+  margin-top: -15px;
+}
+.rectangle3 {
+  height: 10px;
+  width: 720px;
+  background-color: lightcoral;
+  margin-left: 600px;
+  margin-top: -15px;
+}
+
+.rec {
+  color: white;
+  margin-left: 600px;
+  margin-top: -10px;
+  padding-bottom: 5px;
+}
+
+/* ---------------------projects-------------------- */
+
+.projects {
+  text-align: center;
+  position: relative;
+}
+
+.project {
+  color: lightcoral;
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+}
+
+.project-list {
+  margin: 100px 100px 100px 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 50px;
+  margin-top: 50px;
+  
+}
+
+.projectt {
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.projectt img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(245,246,252,0.52), lightcoral);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.layer h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.layer a{
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.layer p {
+  text-align: center;
+}
+
+.projectt:hover img{
+  transform: scale(1.1);
+}
+
+.projectt:hover .layer{
+  height: 100%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: -55px;
+  padding-top: 200px;
+  width: fit-content;
+  border: 1px solid lightcoral;
+  padding: 10px 40px;
+  border-radius: 6px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: lightcoral;
+}
+
+/* ---------------------contact-------------------- */
+
+.contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact h1{
+  color: lightcoral;
+  text-align: center;
+  position: relative;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.contact h2{
+  color: white;
+  text-align: left;
+  position: relative;
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+.cont {
+  margin-left: 200px;
+}
+
+.cont p {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.cont p i {
+  color: lightcoral;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.contactt {
+  flex-basis: 60%;
+  margin-left: 200px;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: lightcoral;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.btn.btn2 {
+  display: inline-block;
+  background: lightcoral;
+  margin-top: 50px;
+}
+  
+.contactt form {
+  width: 50%;
+  margin-left: 450px;
+  margin-top: -350px;
+}
+
+form input, form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+/* ---------------------responsive-------------------- */
+
+/* Add this at the end of your existing CSS */
+
+/* Responsive Styles for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  nav {
+    padding-inline: 5vw;
+  }
+
+  .nav-menu {
+    margin-left: 0;
+  }
+
+  .container {
+    padding-inline: 5vw;
+  }
+
+  .homeintro {
+    margin-left: 5vw;
+    padding-top: 30px;
+  }
+
+  .image {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+
+  .button {
+    margin-left: 5vw;
+  }
+
+  .socialmedia {
+    margin-left: 5vw;
+  }
+
+  .icon a {
+    font-size: 24px;
+  }
+
+  .image2 {
+    margin-left: 5vw;
+  }
+
+  .aboutme {
+    margin-left: 5vw;
+    margin-top: -200px;
+  }
+
+  .rectangle,
+  .rectangle1,
+  .rectangle2,
+  .rectangle3 {
+    margin-left: 5vw;
+  }
+
+  .rec {
+    margin-left: 5vw;
+  }
+
+  .project-list {
+    margin: 30px;
+  }
+
+  .projectt img {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .layer {
+    font-size: 12px;
+  }
+
+  .btn {
+    margin-top: 10px;
+    margin-left: 5vw;
+  }
+
+  .contact h2 {
+    margin-left: 5vw;
+  }
+
+  .cont {
+    margin-left: 5vw;
+  }
+
+  .contactt {
+    margin-left: 5vw;
+  }
+
+  form {
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: -150px;
+  }
+}
+
+/* Additional Styles for Larger Screens if Needed */
+@media only screen and (min-width: 1200px) {
+  /* Add additional styles for larger screens if needed */
+}
